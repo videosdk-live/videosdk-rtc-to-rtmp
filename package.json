@@ -2,6 +2,9 @@
   "name": "videosdk-live-rtc-to-rtmp",
   "version": "0.0.1",
   "description": "Sending mediarecorder from browser to FFMPEG to RTMP",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.10.2",
     "fluent-ffmpeg": "^2.0.1",
